@@ -47,6 +47,24 @@ a:hover {
 a:active {
   color: black; }
 
+.dark-mode a {
+  color: white;
+}
+
+
+.darkmode {
+  border-radius: 50px;
+  padding: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
 .hireme {
   border-radius: 50px;
   padding: 0.5em;
@@ -58,3 +76,7 @@ a:active {
   border: none;
   font-size: 14px;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
